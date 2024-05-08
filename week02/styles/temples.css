@@ -5,6 +5,14 @@ body {
   background-color: #b8b1eb;
 }
 
+footer {
+  text-align: center;
+  background-color: #9381ff;
+  color: #faf4d3;
+  padding: 10px;
+  border-radius: 5px;
+}
+
 /* Nav Bar settings */
 header {
   background-color: #9381ff;
