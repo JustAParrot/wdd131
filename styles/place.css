@@ -6,6 +6,10 @@ h1 {
 }
 body {
   background-color: rgb(151, 3, 3);
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .grid-container {
@@ -22,6 +26,7 @@ body {
   background-color: rgba(255, 255, 255, 0.767);
   border-radius: 5px;
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.582);
+  padding-bottom: 30px;
 }
 
 .data p,
@@ -57,7 +62,7 @@ section h2 {
   margin-right: 40px;
   border-radius: 5px;
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.473);
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 footer {
