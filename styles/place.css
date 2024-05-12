@@ -6,6 +6,10 @@ h1 {
 }
 body {
   background-color: rgb(151, 3, 3);
+  
+}
+
+:root {
   font-family: "Playfair Display", serif;
   font-weight: 500;
   font-style: normal;
