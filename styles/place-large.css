@@ -1,0 +1,31 @@
+@media screen and (max-width: 880px) {
+  .data {
+    grid-column: 1/6;
+    grid-row: 7;
+    background-color: white;
+    font-weight: bold;
+  }
+  .weather {
+    grid-column: 1/6;
+    grid-row: 8;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    font-weight: bold;
+  }
+
+  section h2 {
+    text-align: center;
+    background-color: rgb(136, 7, 7);
+    color: white;
+  }
+
+  .weather img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .weather h2::after {
+    display: none;
+  }
+}
