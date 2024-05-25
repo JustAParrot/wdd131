@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Forms</title>
+    <meta name="description" content="Forms">
+    <meta name="author" content="George Andres Quito Giler">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/forms-large.css">
+    <script src="scripts/form.js" defer></script>
+</head>
+
+<body>
+    <main>
+
+        <h1>Product Review</h1>
+
+        <form action="review.html" method="get" class="w5f">
+            <legend>Product Name:</legend>
+            <select id="productName" name="productName" required>
+                <option value="" disabled selected>Select a Product - &#9662;</option>
+            </select>
+
+            <fieldset class="stars">
+                <legend>Overall Rating:</legend><br>
+                <input type="radio" id="star1" name="overallRating" value="1" required>
+                <label for="star1">☆</label>
+                <input type="radio" id="star2" name="overallRating" value="2" required>
+                <label for="star2">☆☆</label>
+                <input type="radio" id="star3" name="overallRating" value="3" required>
+                <label for="star3">☆☆☆</label>
+                <input type="radio" id="star4" name="overallRating" value="4" required>
+                <label for="star4">☆☆☆☆</label>
+                <input type="radio" id="star5" name="overallRating" value="5" required>
+                <label for="star5">☆☆☆☆☆</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Date of Installation:</legend>
+                <input type="date" id="installationDate" name="installationDate" required>
+            </fieldset>
+
+            <fieldset>
+            <legend>Which features did you find useful in the product?</legend><br>
+            <input type="checkbox" name="usefulFeatures" value="Feature 1">
+            <label for="feature1">Durability</label><br>
+            <input type="checkbox" name="usefulFeatures" value="Feature 2">
+            <label for="feature2">Ease of Use</label><br>
+            <input type="checkbox" name="usefulFeatures" value="Feature 3">
+            <label for="feature3">Performance</label><br>
+            <input type="checkbox" name="usefulFeatures" value="Feature 4">
+            <label for="feature4">Design</label>
+        </fieldset>
+
+            <legend>Written Review:</legend><br>
+            <textarea id="writtenReview" name="writtenReview"></textarea>
+            <br><br>
+
+            <legend>User Name:</legend>
+            <input type="text" name="userName">
+            <br><br>
+
+            <input type="submit" value="Submit Review">
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> George A Quito - Utah/USA</p>
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+
+</html>

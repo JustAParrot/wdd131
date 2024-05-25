@@ -1,0 +1,28 @@
+<!-- review.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Page</title>
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+    <h1>Review Page</h1>
+    <h2>Number of Reviews Completed: <span id="reviewCounter">0</span></h2>
+    <p>Thank you for submitting your review!!</p>
+    <p>Someone is being poorly paid to analyze your data</p>
+    <p>Feel free to add more workload!</p>
+    <script>
+        // Check if localStorage has a counter, if not, initialize it to 0
+        if (!localStorage.getItem("reviewCounter")) {
+            localStorage.setItem("reviewCounter", 0);
+        }
+
+        // Update the review counter on the page
+        document.getElementById("reviewCounter").textContent = localStorage.getItem("reviewCounter");
+    </script>
+    <img src="https://www.deepfocusreview.com/wp-content/uploads/2018/06/incredibles-1.2.jpg" alt="bob">
+
+</body>
+</html>

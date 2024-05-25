@@ -1,0 +1,18 @@
+@media screen and (max-width: 587px) {
+  .stars {
+    display: grid;
+    grid-template-columns: 30px 30px;
+  }
+
+  .stars input {
+    grid-column: 1/2;
+  }
+
+  .stars label {
+    grid-column: 2/3;
+  }
+
+  #writtenReview {
+    width: 100%;
+  }
+}
