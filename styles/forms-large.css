@@ -15,4 +15,9 @@
   #writtenReview {
     width: 100%;
   }
+
+  #writtenReview {
+    max-width: 95%;
+  }
+
 }

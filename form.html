@@ -18,10 +18,12 @@
         <h1>Product Review</h1>
 
         <form action="review.html" method="get" class="w5f">
-            <legend>Product Name:</legend>
-            <select id="productName" name="productName" required>
-                <option value="" disabled selected>Select a Product - &#9662;</option>
-            </select>
+            <fieldset>
+                <legend>Product Name:</legend>
+                <select id="productName" name="productName" required>
+                    <option value="" disabled selected>Select a Product - &#9662;</option>
+                </select>
+            </fieldset>
 
             <fieldset class="stars">
                 <legend>Overall Rating:</legend><br>
@@ -54,13 +56,15 @@
                 <label for="feature4">Design</label>
             </fieldset>
 
-            <legend>Written Review:</legend><br>
-            <textarea id="writtenReview" name="writtenReview"></textarea>
-            <br><br>
+            <fieldset>
+                <legend>Written Review:</legend><br>
+                <textarea id="writtenReview" name="writtenReview"></textarea>
+            </fieldset>
 
-            <legend>User Name:</legend>
-            <input type="text" name="userName">
-            <br><br>
+            <fieldset>
+                <legend>User Name:</legend>
+                <input type="text" name="userName">
+            </fieldset>
 
             <input type="submit" value="Submit Review">
         </form>
